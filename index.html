@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div class="framework">
+    <header class="overall">
+      <div>
+        <div class="group">
+          <div class="logo">
+            <a href="#">
+              <img class="header__img" src="img/logo.png" alt="">
+            </a>
+          </div>
+          <div class="header-group">
+            <div class="header-member-group">
+              <nav class="main-navigator">
+                <ul>
+                  <li class="nav__item"><span><a class="menu_text" href="#">Find events</a></span></li>
+                  <li class="nav__item"><span><a class="menu_text" href="#">Create an event</a></span></li>
+                  <li class="nav__item"><span><a class="menu_text" href="#">Help</a></span></li>
+                  <li onclick="dropDown_Show()" class="nav__item isDropDown"><span><a class="menu_text" href="#">...</a></span>
+
+
+                    <div class="dropDown">
+                      <nav class="dropDown__nav">
+                        <ul class="dropDown__itemList">
+                          <li class="dropDown__item"><a class="dropDown__text" href="#">News</a></li>
+                          <li class="dropDown__item"><a class="dropDown__text" href="#">About us</a></li>
+                          <li class="dropDown__item"><a class="dropDown__text" href="#">Contact us</a></li>
+                          <li class="dropDown__item"><a class="dropDown__text" href="#">Downloads</a></li>
+                          <li class="dropDown__item"><a class="dropDown__text" href="#">Privacy policy</a></li>
+                          <li class="dropDown__item"><a class="dropDown__text" href="#">Terms of use</a></li>
+                        </ul>
+                      </nav>
+
+                      <div class="search-group">
+                        <div class="search">
+                          <form>
+                            <div class="input-group">
+                              <div>
+                                <span><img src="img/search.png"></span>
+                                <span><input  class="search__text" type="text" name="keywords" placeholder="Search for events by keyword"></span>
+                              </div>
+                            </div>
+
+                          </form>
+                        </div>
+                      </div>
+
+
+
+                      <div class="dropDown__social">
+
+                        <img src="img/tw.png">
+                        <img src="img/fb.png">
+                        <img src="img/gl.png">
+                        <img src="img/in.png">
+                        <img src="img/gm.png">
+                        <img src="img/vb.png">
+
+                      </div>
+                    </div>
+
+                  </li>
+                </ul>
+              </nav>
+              <nav class="member-navigator">
+                <ul>
+                  <li class="nav__item"><span><a class="sign_text" href="#">Sign in</a></span></li>
+                  <li class="nav__item"><span><a class="sign_text" href="#">Sign up</a></span></li>
+                  <li class="nav__item buy"><span><a><img class="buy_img" src="img/buy_full.png"></a></span>
+                   <!-- <img class="buy_img" src="../img/buy.png">-->
+                    <div class="colGoods">12</div>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+
+        <div class="search-group">
+          <div class="search">
+            <form>
+              <div class="input-group">
+                <div>
+                  <span><img src="img/search.png"></span>
+                  <span><input class="search__text" type="text" name="keywords" placeholder="Search for events by keyword"></span>
+                </div>
+              </div>
+              <div class="btn-group">
+                <div>
+                  <span><input class="btn" type="submit" value="Search"></span>
+                </div>
+              </div>
+
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </header>
+<!--- Begin FirstSetion -->
+ <!--   <div class="firstSection">
+  <div class="wrapper">
+    <h1 class="firstSection__title">
+      Add GOODS.
+    </h1>
+    <div class="firstSection__container">
+      <div class="box">
+        <div class="box__container">
+          <h3 class="box__title">Goods 1</h3>
+          <img src="../img/computer.png">
+          <button class="btn" onclick='addGoods()'>Add</button>
+        </div>
+      </div>
+      <div class="box">
+        <div class="box__container">
+          <h3 class="box__title">Goods 2</h3>
+          <img src="../img/computer.png">
+          <button class="btn" onclick='addGoods()'>Add</button>
+        </div>
+      </div>
+      <div class="box">
+        <div class="box__container">
+          <h3 class="box__title">Goods 3</h3>
+          <img src="../img/computer.png">
+          <button class="btn" onclick='addGoods()'>Add</button>
+        </div>
+      </div>
+      <div class="box">
+        <div class="box__container">
+          <h3 class="box__title">Goods 4</h3>
+          <img src="../img/computer.png">
+          <button class="btn" onclick='addGoods()'>Add</button>
+        </div>
+      </div>
+      <div class="box">
+        <div class="box__container">
+          <h3 class="box__title">Goods 5</h3>
+          <img src="../img/computer.png">
+          <button class="btn" onclick='addGoods()'>Add</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--- End FirstSetion -->
+<!-- begin footer -->
+    <footer class="footer">
+    </footer>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+</html>
+  <!-- end footer -->
