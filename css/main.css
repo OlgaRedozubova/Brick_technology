@@ -263,6 +263,9 @@ li>a{
   justify-content: space-between;
   margin-top: 20px;
 }
+.dropDown__social>img {
+  padding: 0 5px;
+}
 
 .visible {
   display: block;
